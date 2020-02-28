@@ -1,0 +1,6 @@
+Evalueaza expresii aritmetice in forma poloneza inversata. 
+3 + 5 -> 3 5 +
+Se foloseste stiva si se da push fiecarui numar. 
+Cand se intalneste un operator(+, -, *, /) se iau 2 elemente de pe stiva(2 popuri), se
+calculeaza rezultatul operatiei si se face push inapoi pe stiva. Continua evaluarea
+secventei pana cand am ajuns la delimitatorul de sir.
